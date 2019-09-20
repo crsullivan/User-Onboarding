@@ -49,10 +49,40 @@ table {
 
  html {
   background-image: url("./images/beanstalk-dark/beanstalk-dark.png");
+  font-size:62.5%;
  
 }
 .App {
   text-align: center; 
   color:white;
   margin-top:3%;
+}
+
+.user-card {
+	background-color:ghostwhite;
+	color:black;
+	width: 20%;
+	margin:5% 2% 2%;
+	border-radius:20%
+
+}
+
+li {
+	margin:2%;
+	font-size:2rem;
+}
+
+.user-cards {
+	display:flex;
+	flex-wrap:wrap;
+
+}
+
+span {
+	font-size:1.75rem;
+	
+}
+
+.input {
+	margin:2%;
 }
